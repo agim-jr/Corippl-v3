@@ -1,0 +1,17 @@
+Collecting pandas
+  Downloading pandas-2.3.2-cp312-cp312-win_amd64.whl.metadata (19 kB)
+Requirement already satisfied: numpy in c:\users\chuag\onedrive\desktop\echo_project4\venv\lib\site-packages (2.3.2)
+Requirement already satisfied: joblib in c:\users\chuag\onedrive\desktop\echo_project4\venv\lib\site-packages (1.5.2)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\chuag\onedrive\desktop\echo_project4\venv\lib\site-packages (from pandas) (2025.2)
+Requirement already satisfied: six>=1.5 in c:\users\chuag\onedrive\desktop\echo_project4\venv\lib\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Downloading pandas-2.3.2-cp312-cp312-win_amd64.whl (11.0 MB)
+   ------- 11.0/1… 17.2   eta 0:00:00
+           MB      MB/s              
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Installing collected packages: pytz, python-dateutil, pandas
+Successfully installed pandas-2.3.2 python-dateutil-2.9.0.post0 pytz-2025.2

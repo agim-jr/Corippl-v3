@@ -1,0 +1,151 @@
+{
+  "demo_users": [
+    {
+      "username": "demo_tech_curator",
+      "email": "demo.tech@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "Tech Tutorials (Demo Account)",
+        "bio": "Demo Account - Curated web development & programming tutorials for demonstration purposes",
+        "categories": [
+          "Tech & SaaS",
+          "Education & Learning"
+        ],
+        "interests": [
+          "Web Development",
+          "React",
+          "JavaScript",
+          "Tutorial Content",
+          "Programming"
+        ]
+      }
+    },
+    {
+      "username": "demo_startup_stories",
+      "email": "demo.startup@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "Startup Stories (Demo Account)",
+        "bio": "Demo Account - Curated entrepreneurship stories, building in public, and indie hacker journeys",
+        "categories": [
+          "Entrepreneurship & Startups",
+          "Business & Marketing"
+        ],
+        "interests": [
+          "SaaS",
+          "Indie Hacking",
+          "Building in Public",
+          "Product Management",
+          "Growth"
+        ]
+      }
+    },
+    {
+      "username": "demo_design_resources",
+      "email": "demo.design@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "Design Resources (Demo Account)",
+        "bio": "Demo Account - Curated UI/UX design tutorials, design systems, and creative inspiration",
+        "categories": [
+          "Design & Creative",
+          "Tech & SaaS"
+        ],
+        "interests": [
+          "UI Design",
+          "UX Design",
+          "Figma",
+          "Design Systems",
+          "Visual Design"
+        ]
+      }
+    },
+    {
+      "username": "demo_marketing_guru",
+      "email": "demo.marketing@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "Marketing Insights (Demo Account)",
+        "bio": "Demo Account - Curated digital marketing strategies, SEO guides, and growth tactics",
+        "categories": [
+          "Business & Marketing",
+          "Entrepreneurship & Startups"
+        ],
+        "interests": [
+          "Content Marketing",
+          "SEO",
+          "Growth Hacking",
+          "Social Media",
+          "Email Marketing"
+        ]
+      }
+    },
+    {
+      "username": "demo_productivity_pro",
+      "email": "demo.productivity@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "Productivity Pro (Demo Account)",
+        "bio": "Demo Account - Curated productivity tips, time management strategies, and work-life balance content",
+        "categories": [
+          "Personal Growth & Productivity",
+          "Education & Learning"
+        ],
+        "interests": [
+          "Productivity",
+          "Time Management",
+          "Remote Work",
+          "Focus",
+          "Habits"
+        ]
+      }
+    },
+    {
+      "username": "demo_content_creator",
+      "email": "demo.content@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "Content Creation Hub (Demo Account)",
+        "bio": "Demo Account - Curated guides for YouTube creators, writers, podcasters, and content marketers",
+        "categories": [
+          "Media & Entertainment",
+          "Business & Marketing"
+        ],
+        "interests": [
+          "YouTube",
+          "Writing",
+          "Podcasting",
+          "Video Production",
+          "Storytelling"
+        ]
+      }
+    },
+    {
+      "username": "demo_ai_ml_resources",
+      "email": "demo.ai@echo-demo.com",
+      "password": "DemoPassword123!",
+      "is_demo": true,
+      "profile": {
+        "name": "AI & ML Resources (Demo Account)",
+        "bio": "Demo Account - Curated artificial intelligence tutorials, machine learning guides, and AI tools",
+        "categories": [
+          "Tech & SaaS",
+          "Education & Learning"
+        ],
+        "interests": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Deep Learning",
+          "Neural Networks",
+          "AI Tools"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Your content was shared - Corippl</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .header .emoji {
+            font-size: 48px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .header .tagline {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .content p {
+            margin: 15px 0;
+            color: #374151;
+            font-size: 15px;
+        }
+        .sharer-badge {
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            border-left: 4px solid #10b981;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+        }
+        .sharer-badge .icon {
+            font-size: 32px;
+            margin-right: 15px;
+        }
+        .sharer-badge .text {
+            flex: 1;
+        }
+        .sharer-badge strong {
+            color: #065f46;
+            font-size: 16px;
+        }
+        .sharer-badge p {
+            margin: 5px 0 0 0;
+            color: #047857;
+            font-size: 13px;
+        }
+        .content-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        /* ✅ NEW: Media preview styles */
+        .media-preview {
+            margin: 15px 0;
+            border-radius: 6px;
+            overflow: hidden;
+            background-color: #f9fafb;
+        }
+        .media-preview img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+        .media-preview video {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            display: block;
+        }
+        .media-preview iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            display: block;
+        }
+        .media-placeholder {
+            padding: 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+        }
+        .media-placeholder .icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .media-placeholder .label {
+            font-size: 12px;
+            font-weight: bold;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .content-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #000000;
+            margin: 0 0 12px 0;
+            line-height: 1.3;
+        }
+        .content-description {
+            color: #6b7280;
+            margin: 15px 0;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .stats-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .stats-box h3 {
+            margin: 0 0 10px 0;
+            color: #78350f;
+            font-size: 16px;
+        }
+        .stats-box .number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #92400e;
+            margin: 10px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #000000 0%, #333333 100%);
+            color: white !important;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        .info-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 6px;
+        }
+        .info-box h4 {
+            margin: 0 0 10px 0;
+            color: #1e40af;
+            font-size: 16px;
+        }
+        .info-box p {
+            margin: 8px 0;
+            color: #374151;
+            font-size: 14px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+            border-top: 1px solid #e5e7eb;
+        }
+        .footer a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer p {
+            margin: 8px 0;
+        }
+
+        /* Mobile responsiveness */
+        @media only screen and (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .header {
+                padding: 24px 16px;
+            }
+            .content {
+                padding: 20px;
+            }
+            .content-card {
+                padding: 20px;
+            }
+            .media-preview img,
+            .media-preview video {
+                max-height: 200px;
+            }
+            .media-preview iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="emoji">🎉</span>
+            <h1>Your Content Was Shared!</h1>
+            <p class="tagline">Great news from Corippl</p>
+        </div>
+
+        <div class="content">
+            <p><strong>Hello {{ owner_name }},</strong></p>
+
+            <div class="sharer-badge">
+                <div class="icon">👤</div>
+                <div class="text">
+                    <strong>@{{ sharer_name }}</strong>
+                    <p>just shared your content with their network!</p>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="content-title">{{ content.title }}</div>
+
+                {% if content.description %}
+                <div class="content-description">{{ content.description }}</div>
+                {% endif %}
+
+                <!-- ✅ NEW: Media Preview -->
+                {% if content.media_url %}
+                <div class="media-preview">
+                    {% if content.content_type == 'image' or '.jpg' in content.media_url or '.png' in content.media_url or '.gif' in content.media_url or 'unsplash.com' in content.media_url %}
+                        <img src="{{ content.media_url }}" alt="{{ content.title }}" />
+                    {% elif content.content_type == 'video' and ('youtube.com' in content.media_url or 'youtu.be' in content.media_url) %}
+                        {% set video_id = content.media_url.split('v=')[1].split('&')[0] if 'v=' in content.media_url else content.media_url.split('youtu.be/')[1].split('?')[0] %}
+                        <iframe src="https://www.youtube.com/embed/{{ video_id }}" allowfullscreen></iframe>
+                    {% elif content.content_type == 'video' or '.mp4' in content.media_url %}
+                        <video controls>
+                            <source src="{{ content.media_url }}" type="video/mp4">
+                        </video>
+                    {% elif content.content_type == 'pdf' or '.pdf' in content.media_url %}
+                        <div class="media-placeholder">
+                            <span class="icon">📄</span>
+                            <span class="label">PDF Document</span>
+                        </div>
+                    {% else %}
+                        <div class="media-placeholder">
+                            <span class="icon">📎</span>
+                            <span class="label">{{ content.content_type|upper }}</span>
+                        </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="stats-box">
+                <h3>📊 Total Shares</h3>
+                <div class="number">{{ share_count }}</div>
+                <p style="margin: 0; color: #78350f; font-size: 13px;">
+                    Your content is gaining traction!
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Why This Matters</h4>
+                <p>
+                    Each share expands your reach and introduces your content to new audiences.
+                    The more your content is shared, the more visibility you gain in your niche.
+                </p>
+                <p>
+                    <strong>Keep creating valuable content</strong> and watch your network grow!
+                </p>
+            </div>
+
+            <div style="text-align: center; margin: 25px 0;">
+                <a href="{{ base_url or 'http://localhost:5173/dashboard' }}" class="cta-button">
+                    📈 View Your Dashboard
+                </a>
+            </div>
+
+            <p style="margin-top: 30px;">
+                Keep up the great work!<br>
+                <strong>The Corippl Team</strong>
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="{{ base_url or 'http://localhost:5173/settings' }}">Manage Email Preferences</a>
+            </p>
+            <p style="font-size: 12px; color: #9ca3af; margin-top: 12px;">
+                You received this because you have content share notifications enabled.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

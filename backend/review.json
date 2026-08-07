@@ -1,0 +1,8 @@
+{
+  "content_id": REVIEW_CONTENT_ID,
+  "rating": 5,
+  "feedback": "Great content!",
+  "categories_match": true,
+  "is_spam": false,
+  "is_quality": true
+}

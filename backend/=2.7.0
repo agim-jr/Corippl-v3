@@ -1,0 +1,2 @@
+Requirement already satisfied: pydantic in c:\users\chuag\onedrive\desktop\echo_project4\venv\lib\site-packages (1.10.11)
+Requirement already satisfied: typing-extensions>=4.2.0 in c:\users\chuag\onedrive\desktop\echo_project4\venv\lib\site-packages (from pydantic) (4.12.2)

@@ -1,0 +1,445 @@
+{
+  "demo_content": [
+    {
+      "creator_username": "demo_tech_curator",
+      "title": "React Server Components: A Deep Dive",
+      "description": "Comprehensive guide to understanding and implementing React Server Components in modern web applications",
+      "url": "https://www.joshwcomeau.com/react/server-components/",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS",
+        "Education & Learning"
+      ],
+      "source_attribution": "Josh Comeau",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_tech_curator",
+      "title": "The Complete Guide to Modern CSS",
+      "description": "Master CSS Grid, Flexbox, and modern layout techniques",
+      "url": "https://www.smashingmagazine.com/guides/css-layout/",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS",
+        "Education & Learning"
+      ],
+      "source_attribution": "Smashing Magazine",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_tech_curator",
+      "title": "JavaScript ES2024 Features",
+      "description": "Latest JavaScript features and how to use them in production",
+      "url": "https://v8.dev/features",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS"
+      ],
+      "source_attribution": "V8 Dev Blog",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_tech_curator",
+      "title": "Building Accessible Web Applications",
+      "description": "Practical guide to web accessibility and WCAG compliance",
+      "url": "https://www.a11yproject.com/",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS",
+        "Education & Learning"
+      ],
+      "source_attribution": "A11Y Project",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_tech_curator",
+      "title": "TypeScript Best Practices 2024",
+      "description": "Advanced TypeScript patterns and type safety techniques",
+      "url": "https://www.totaltypescript.com/",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS"
+      ],
+      "source_attribution": "Total TypeScript",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_startup_stories",
+      "title": "From $0 to $10k MRR in 6 Months",
+      "description": "Indie hacker journey building a profitable SaaS product without VC funding",
+      "url": "https://www.indiehackers.com/post/from-0-to-10k-mrr-in-6-months",
+      "content_type": "article",
+      "categories": [
+        "Entrepreneurship & Startups",
+        "Business & Marketing"
+      ],
+      "source_attribution": "Indie Hackers",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_startup_stories",
+      "title": "How I Validated My SaaS Idea in 2 Weeks",
+      "description": "Step-by-step guide to validating product ideas before building",
+      "url": "https://www.indiehackers.com/post/how-to-validate-your-saas-idea",
+      "content_type": "article",
+      "categories": [
+        "Entrepreneurship & Startups"
+      ],
+      "source_attribution": "Indie Hackers",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_startup_stories",
+      "title": "Building in Public: Year One Lessons",
+      "description": "What I learned sharing my startup journey publicly on Twitter",
+      "url": "https://www.indiehackers.com/post/building-in-public-lessons",
+      "content_type": "article",
+      "categories": [
+        "Entrepreneurship & Startups",
+        "Business & Marketing"
+      ],
+      "source_attribution": "Indie Hackers",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_startup_stories",
+      "title": "The Lean Startup Methodology",
+      "description": "Eric Ries's framework for building successful startups",
+      "url": "http://theleanstartup.com/principles",
+      "content_type": "article",
+      "categories": [
+        "Entrepreneurship & Startups",
+        "Business & Marketing"
+      ],
+      "source_attribution": "The Lean Startup",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_startup_stories",
+      "title": "Y Combinator's Startup School",
+      "description": "Free online course on how to start a startup",
+      "url": "https://www.startupschool.org/",
+      "content_type": "link",
+      "categories": [
+        "Entrepreneurship & Startups",
+        "Education & Learning"
+      ],
+      "source_attribution": "Y Combinator",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_design_resources",
+      "title": "Refactoring UI: Design Tips for Developers",
+      "description": "Practical design advice for developers who want to create beautiful interfaces",
+      "url": "https://www.refactoringui.com/",
+      "content_type": "article",
+      "categories": [
+        "Design & Creative",
+        "Tech & SaaS"
+      ],
+      "source_attribution": "Refactoring UI",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_design_resources",
+      "title": "Mastering Figma: Complete Guide",
+      "description": "From basics to advanced prototyping in Figma",
+      "url": "https://www.figma.com/resources/learn-design/",
+      "content_type": "article",
+      "categories": [
+        "Design & Creative",
+        "Education & Learning"
+      ],
+      "source_attribution": "Figma",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_design_resources",
+      "title": "Design Systems 101",
+      "description": "Building scalable design systems for modern products",
+      "url": "https://www.designsystems.com/",
+      "content_type": "article",
+      "categories": [
+        "Design & Creative",
+        "Tech & SaaS"
+      ],
+      "source_attribution": "Design Systems",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_design_resources",
+      "title": "Color Theory for Digital Designers",
+      "description": "Understanding color psychology and creating harmonious palettes",
+      "url": "https://www.smashingmagazine.com/category/color-theory",
+      "content_type": "article",
+      "categories": [
+        "Design & Creative"
+      ],
+      "source_attribution": "Smashing Magazine",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_design_resources",
+      "title": "UX Laws Every Designer Should Know",
+      "description": "Key principles of user experience design explained visually",
+      "url": "https://lawsofux.com/",
+      "content_type": "link",
+      "categories": [
+        "Design & Creative",
+        "Education & Learning"
+      ],
+      "source_attribution": "Laws of UX",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_marketing_guru",
+      "title": "SEO in 2024: Complete Guide",
+      "description": "Latest SEO strategies and algorithm updates you need to know",
+      "url": "https://moz.com/beginners-guide-to-seo",
+      "content_type": "article",
+      "categories": [
+        "Business & Marketing"
+      ],
+      "source_attribution": "Moz",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_marketing_guru",
+      "title": "Content Marketing Playbook",
+      "description": "How to create content that ranks and converts",
+      "url": "https://www.hubspot.com/content-marketing",
+      "content_type": "article",
+      "categories": [
+        "Business & Marketing"
+      ],
+      "source_attribution": "HubSpot",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_marketing_guru",
+      "title": "Email Marketing Best Practices",
+      "description": "Building effective email campaigns that drive engagement",
+      "url": "https://mailchimp.com/resources/email-marketing-best-practices/",
+      "content_type": "article",
+      "categories": [
+        "Business & Marketing"
+      ],
+      "source_attribution": "Mailchimp",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_marketing_guru",
+      "title": "Social Media Algorithm Secrets",
+      "description": "Understanding and leveraging platform algorithms for reach",
+      "url": "https://buffer.com/resources/social-media-algorithms/",
+      "content_type": "article",
+      "categories": [
+        "Business & Marketing"
+      ],
+      "source_attribution": "Buffer",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_marketing_guru",
+      "title": "Growth Hacking Tactics That Work",
+      "description": "Proven strategies for rapid user acquisition",
+      "url": "https://neilpatel.com/what-is-growth-hacking/",
+      "content_type": "article",
+      "categories": [
+        "Business & Marketing",
+        "Entrepreneurship & Startups"
+      ],
+      "source_attribution": "Neil Patel",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_productivity_pro",
+      "title": "Deep Work: Rules for Focused Success",
+      "description": "Cal Newport's guide to achieving peak productivity",
+      "url": "https://www.calnewport.com/books/deep-work/",
+      "content_type": "article",
+      "categories": [
+        "Personal Growth & Productivity"
+      ],
+      "source_attribution": "Cal Newport",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_productivity_pro",
+      "title": "The Pomodoro Technique Explained",
+      "description": "Time management method for maximum focus and efficiency",
+      "url": "https://francescocirillo.com/pages/pomodoro-technique",
+      "content_type": "article",
+      "categories": [
+        "Personal Growth & Productivity"
+      ],
+      "source_attribution": "Francesco Cirillo",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_productivity_pro",
+      "title": "Building Better Habits",
+      "description": "Science-backed strategies for habit formation",
+      "url": "https://jamesclear.com/atomic-habits",
+      "content_type": "article",
+      "categories": [
+        "Personal Growth & Productivity"
+      ],
+      "source_attribution": "James Clear",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_productivity_pro",
+      "title": "Remote Work Best Practices",
+      "description": "Thriving in a distributed work environment",
+      "url": "https://basecamp.com/guides/how-we-work",
+      "content_type": "article",
+      "categories": [
+        "Personal Growth & Productivity",
+        "Business & Marketing"
+      ],
+      "source_attribution": "Basecamp",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_productivity_pro",
+      "title": "Time Blocking for Peak Performance",
+      "description": "How to structure your day for maximum output",
+      "url": "https://todoist.com/productivity-methods/time-blocking",
+      "content_type": "article",
+      "categories": [
+        "Personal Growth & Productivity"
+      ],
+      "source_attribution": "Todoist",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_content_creator",
+      "title": "YouTube Creator Academy",
+      "description": "Official guides for growing your YouTube channel",
+      "url": "https://creatoracademy.youtube.com/",
+      "content_type": "link",
+      "categories": [
+        "Media & Entertainment",
+        "Education & Learning"
+      ],
+      "source_attribution": "YouTube",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_content_creator",
+      "title": "The Art of Storytelling",
+      "description": "Crafting compelling narratives that captivate audiences",
+      "url": "https://blog.pixar.com/storytelling",
+      "content_type": "article",
+      "categories": [
+        "Media & Entertainment",
+        "Design & Creative"
+      ],
+      "source_attribution": "Pixar",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_content_creator",
+      "title": "Podcasting 101: Complete Beginner's Guide",
+      "description": "Everything you need to start and grow a successful podcast",
+      "url": "https://riverside.fm/blog/how-to-start-a-podcast",
+      "content_type": "article",
+      "categories": [
+        "Media & Entertainment",
+        "Education & Learning"
+      ],
+      "source_attribution": "Riverside.fm",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_content_creator",
+      "title": "Writing for the Web",
+      "description": "How to write engaging online content that readers love",
+      "url": "https://www.nngroup.com/articles/how-users-read-on-the-web/",
+      "content_type": "article",
+      "categories": [
+        "Media & Entertainment",
+        "Business & Marketing"
+      ],
+      "source_attribution": "Nielsen Norman Group",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_content_creator",
+      "title": "Video Production for Creators",
+      "description": "Professional video creation on a budget",
+      "url": "https://www.premiumbeat.com/blog/",
+      "content_type": "article",
+      "categories": [
+        "Media & Entertainment",
+        "Design & Creative"
+      ],
+      "source_attribution": "PremiumBeat",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_ai_ml_resources",
+      "title": "Introduction to Machine Learning",
+      "description": "Beginner-friendly guide to ML concepts and algorithms",
+      "url": "https://www.coursera.org/learn/machine-learning",
+      "content_type": "link",
+      "categories": [
+        "Tech & SaaS",
+        "Education & Learning"
+      ],
+      "source_attribution": "Andrew Ng / Coursera",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_ai_ml_resources",
+      "title": "ChatGPT Prompt Engineering Guide",
+      "description": "Master the art of crafting effective AI prompts",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS"
+      ],
+      "source_attribution": "OpenAI",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_ai_ml_resources",
+      "title": "Neural Networks Explained Visually",
+      "description": "Understanding deep learning through interactive visualizations",
+      "url": "https://www.3blue1brown.com/topics/neural-networks",
+      "content_type": "video",
+      "categories": [
+        "Tech & SaaS",
+        "Education & Learning"
+      ],
+      "source_attribution": "3Blue1Brown",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_ai_ml_resources",
+      "title": "AI Tools for Developers",
+      "description": "Curated list of AI-powered development tools",
+      "url": "https://github.com/ai-collection/ai-collection",
+      "content_type": "link",
+      "categories": [
+        "Tech & SaaS"
+      ],
+      "source_attribution": "GitHub",
+      "is_demo": true
+    },
+    {
+      "creator_username": "demo_ai_ml_resources",
+      "title": "Responsible AI Development",
+      "description": "Ethical considerations in building AI systems",
+      "url": "https://www.partnershiponai.org/",
+      "content_type": "article",
+      "categories": [
+        "Tech & SaaS",
+        "Education & Learning"
+      ],
+      "source_attribution": "Partnership on AI",
+      "is_demo": true
+    }
+  ]
+}

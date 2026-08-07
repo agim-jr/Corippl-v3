@@ -1,0 +1,174 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 220.9 39.3% 11%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 71.4% 4.1%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 210 20% 98%;
+    --primary-foreground: 220.9 39.3% 11%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 216 12.2% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    overflow-x: hidden;
+  }
+}
+
+
+/* Animation for bounce effect */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* Glow effect for buttons or elements */
+.glowing {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3), 0 0 8px rgba(66, 153, 255, 0.5);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.glowing:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5), 0 0 12px rgba(66, 153, 255, 0.7);
+}
+
+/* Line-draw animation for charts */
+@keyframes draw-line {
+  from {
+    stroke-dasharray: 0, 1000;
+  }
+  to {
+    stroke-dasharray: 1000, 0;
+  }
+}
+
+.animate-draw-line {
+  animation: draw-line 1s ease-in-out forwards;
+}
+
+/* Glowing effect for active toggle */
+.glowing-toggle {
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.glowing-toggle.active {
+  background-color: #16a34a; /* Green for active */
+  color: white;
+  animation: glow-pulse 1.5s infinite;
+}
+
+.glowing-toggle.inactive {
+  background-color: #d1d5db; /* Gray for inactive */
+  color: black;
+}
+
+@keyframes glow-pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(22, 163, 74, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(22, 163, 74, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(22, 163, 74, 0.5);
+  }
+}
+
+html,
+body,
+#root {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+#root,
+body > div,
+body > main,
+body > section {
+  max-width: none !important;
+}
+
+.container {
+  max-width: none !important;
+}

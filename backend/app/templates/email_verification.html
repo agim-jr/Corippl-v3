@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Email - Corippl</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f5f5f5;">
+    <table role="presentation" style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td align="center" style="padding: 40px 20px;">
+                <!-- Main Container -->
+                <table role="presentation" style="max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 16px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden;">
+
+                    <!-- Header -->
+                    <tr>
+                        <td style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 50px 40px; text-align: center;">
+                            <div style="font-size: 64px; margin-bottom: 16px;">🎉</div>
+                            <h1 style="margin: 0; color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: -0.5px;">Welcome to Corippl!</h1>
+                        </td>
+                    </tr>
+
+                    <!-- Content -->
+                    <tr>
+                        <td style="padding: 48px 40px;">
+                            <h2 style="margin: 0 0 24px 0; color: #1a1a1a; font-size: 24px; font-weight: 600;">Hey {{ username }}! 👋</h2>
+
+                            <p style="margin: 0 0 20px 0; color: #4a5568; font-size: 16px; line-height: 1.6;">
+                                Thanks for signing up! We're excited to have you join our community of content creators.
+                            </p>
+
+                            <p style="margin: 0 0 32px 0; color: #4a5568; font-size: 16px; line-height: 1.6;">
+                                <strong style="color: #2d3748;">Just one more step:</strong> Click the button below to verify your email address and activate your account.
+                            </p>
+
+                            <!-- CTA Button -->
+                            <table role="presentation" style="width: 100%; margin: 32px 0;">
+                                <tr>
+                                    <td align="center">
+                                        <a href="{{ verification_link }}" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #ffffff; text-decoration: none; padding: 16px 48px; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);">
+                                            ✓ Verify My Email
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Warning Box -->
+                            <div style="background-color: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; border-radius: 8px; margin: 32px 0;">
+                                <p style="margin: 0; color: #92400e; font-size: 14px; line-height: 1.5;">
+                                    <strong>⏰ Important:</strong> This link expires in 24 hours for security reasons.
+                                </p>
+                            </div>
+
+                            <!-- Alternative Link -->
+                            <p style="margin: 24px 0 12px 0; color: #718096; font-size: 14px;">
+                                If the button doesn't work, copy and paste this link into your browser:
+                            </p>
+                            <div style="background-color: #f7fafc; padding: 16px; border-radius: 8px; word-break: break-all;">
+                                <a href="{{ verification_link }}" style="color: #667eea; font-size: 13px; text-decoration: none;">{{ verification_link }}</a>
+                            </div>
+
+                            <!-- Divider -->
+                            <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 40px 0;">
+
+                            <!-- What's Next Section -->
+                            <h3 style="margin: 0 0 20px 0; color: #2d3748; font-size: 18px; font-weight: 600;">What happens next?</h3>
+                            <table role="presentation" style="width: 100%;">
+                                <tr>
+                                    <td style="padding: 12px 0;">
+                                        <span style="font-size: 20px; margin-right: 12px;">📝</span>
+                                        <span style="color: #4a5568; font-size: 15px;">Complete your creator profile</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px 0;">
+                                        <span style="font-size: 20px; margin-right: 12px;">🔍</span>
+                                        <span style="color: #4a5568; font-size: 15px;">Get matched with relevant content</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px 0;">
+                                        <span style="font-size: 20px; margin-right: 12px;">🤝</span>
+                                        <span style="color: #4a5568; font-size: 15px;">Start cross-promoting with other creators</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px 0;">
+                                        <span style="font-size: 20px; margin-right: 12px;">📈</span>
+                                        <span style="color: #4a5568; font-size: 15px;">Grow your audience together!</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background-color: #f7fafc; padding: 32px 40px; text-align: center; border-top: 1px solid #e2e8f0;">
+                            <p style="margin: 0 0 12px 0; color: #718096; font-size: 14px; line-height: 1.6;">
+                                Didn't sign up for Corippl? You can safely ignore this email.
+                            </p>
+                            <p style="margin: 0 0 20px 0; color: #718096; font-size: 13px;">
+                                Questions? Reply to this email or contact us at <a href="mailto:support@corippl.com" style="color: #667eea; text-decoration: none;">support@corippl.com</a>
+                            </p>
+                            <p style="margin: 0; color: #a0aec0; font-size: 12px;">
+                                © 2026 Corippl. All rights reserved.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

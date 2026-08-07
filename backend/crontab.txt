@@ -1,0 +1,26 @@
+# backend/crontab.txt
+# Cron schedule for collective tasks
+
+# ===== DAILY TASKS =====
+
+# Morning reminders (9 AM daily)
+0 9 * * * cd /path/to/backend && python -m app.tasks.cli reminders
+
+# Autopilot runs (8 AM, 12 PM, 4 PM daily)
+0 8 * * * cd /path/to/backend && python -m app.tasks.cli autopilot
+0 12 * * * cd /path/to/backend && python -m app.tasks.cli autopilot
+0 16 * * * cd /path/to/backend && python -m app.tasks.cli autopilot
+
+# Check missed shares (11:30 PM daily)
+30 23 * * * cd /path/to/backend && python -m app.tasks.cli check_missed
+
+# ===== WEEKLY TASKS =====
+
+# Optimize schedules (Sunday 11 PM)
+0 23 * * 0 cd /path/to/backend && python -m app.tasks.cli optimize_schedules
+
+# Analyze group health (Monday 8 AM)
+0 8 * * 1 cd /path/to/backend && python -m app.tasks.cli health_check
+
+# Generate weekly reports (Monday 9 AM)
+0 9 * * 1 cd /path/to/backend && python -m app.tasks.cli weekly_reports
